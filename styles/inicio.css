@@ -1,0 +1,19 @@
+.navbar {
+  background-color: #0056b3;
+}
+
+.card {
+  border-radius: 0.7rem;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-collapse {
+  color: white;
+}
+
+.nav-title {
+  color: white !important;
+}
