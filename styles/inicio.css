@@ -18,8 +18,6 @@
   color: white !important;
 }
 
-
-
 @media (max-width: 768px) {
   .accordion {
     width: 90%; /* Ajusta el ancho en pantallas pequeñas */
