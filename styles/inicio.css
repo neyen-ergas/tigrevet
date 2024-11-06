@@ -27,48 +27,5 @@
 }
 
 
- /* Fondo general de la sección */
- .accordion-section {
-  background-color: #f4f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-}
 
-/* Fondo de los botones de acordeón */
-.accordion-button {
-  font-weight: bold;
-}
-
-/* Hover de los botones para un buen contraste */
-.accordion-button:hover {
-  background-color: #2fb21e57; /* Azul oscuro */
-  border-color: #00000057;
-}
-
-/* Estilo para el cuerpo del acordeón */
-.accordion-body {
-  background-color: #ffffff; /* Fondo blanco para el contenido */
-  color: #000000c9; /* Texto oscuro para legibilidad */
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* Fondo alternativo de cada acordeón (bajo los encabezados) */
-.accordion-item {
-  margin-bottom: 10px;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-/* Acordeón desplegado con sombra */
-.accordion-collapse.show {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Acordeón colapsado sin sombra */
-.accordion-collapse.collapse {
-  box-shadow: none;
-}
 
