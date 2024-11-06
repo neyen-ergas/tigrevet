@@ -72,8 +72,3 @@
   box-shadow: none;
 }
 
-  /* Estilo para el botón cuando el acordeón está abierto */
-  .accordion-button:not(.collapsed) {
-    background-color: #2fb21e57; /* Color del fondo del botón cuando está abierto */
-    border-color: #2fb21e57; /* Asegúrate de que el borde se mantenga igual */
-  }
