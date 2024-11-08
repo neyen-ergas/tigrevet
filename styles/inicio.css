@@ -1,13 +1,15 @@
 
-
-
-
 .navbar {
-  background-color: #0056b3;
+  background-color: #2E4057;
 }
+
 
 .card {
   border-radius: 0.7rem;
+}
+
+.fondofooter {
+  background-color: #2E4057;
 }
 
 .navbar-nav .nav-link {
@@ -28,31 +30,16 @@
   }
 }
 
-
-    .pb-video-container {
-        padding-top: 20px;
-        background: #ffffff;
-    }
-
-    .pb-video {
-        border: 1px solid #e6e6e6;
-        padding: 5px;
-    }
-
-        .pb-video:hover {
-            background: #ffffff;
-        }
-
-    .pb-video-frame {
-        transition: width 2s, height 2s;
-    }
-
-        .pb-video-frame:hover {
-            height: 300px;
-        }
-
-    .pb-row {
-        margin-bottom: 10px;
-    }
+.nav-item:hover {
+  background-color: #FF9933 ;
+  border-radius: 10px !important;
+}
 
 
+.nav-item > a:hover {
+  color: white;
+}
+
+.navbar-nav > .active > a {
+  background-color: #FF9933;
+}

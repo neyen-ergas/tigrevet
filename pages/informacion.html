@@ -5,108 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tigrevet</title>
     <link rel="stylesheet" href="../styles/inicio.css" />
+    <link rel="stylesheet" href="../styles/informacion.css" />
     <link rel="icon" href="../src/logoblanco.png.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
     
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="../src/logoblanco.png" height="40" alt="Tigrevet" />
-            Tigrevet
-          </a>
-          
-          <!-- Botón de colapso -->
-          <button 
-            class="navbar-toggler" 
-            type="button" 
-            data-bs-toggle="collapse" 
-            data-bs-target="#navbar" 
-            aria-controls="navbar" 
-            aria-expanded="false" 
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      
-          <!-- Menú colapsable -->
-          <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/turnos.html">Turnos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/informacion.html">Información</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/blog.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/faqs.html">Preguntas Frecuentes</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg nav-pills">
+      <div class="container">
+        
+        <img src="../src/logoblanco.png" height="40" alt="" />
+        <a class="nav-link nav-title" href="index.html">Tigrevet</a>
+        <div class="navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/turnos.html">Turnos</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="../pages/informacion.html">Informacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="../pages/faqs.html"
+                >Preguntas Frecuentes</a
+              >
+            </li>
+          </ul>
         </div>
-      </nav>
-    <div class="container pb-video-container">
-    <div class="col-md-10 col-md-offset-1">
-        <h3 class="text-center">Sample Video Gallery</h3>
-        <div class="row pb-row">
-            <div class="col-md-3 pb-video">
-                <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/K68UrdUOr2Y?list=RDzuAcaBkcYGE?ecver=1" frameborder="0" allowfullscreen loading="lazy"></iframe>
-                <label class="form-control label-warning text-center">Claydee - Alena</label>
+      </div>
+    </nav>
+
+      <div class="container-fluid pb-video-container">
+        <div>
+            <h3 class="text-center titulovideo">Video tutoriales</h3>
+            <div class="row pb-row">
+                <div class="col-md-3 pb-video">
+                    <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/XjzDwnPhCsM?si=F-oJVwctIZAyTvdT" frameborder="0" allowfullscreen></iframe>
+                    <label class="form-control label-warning text-center">¿Qué hace un AUXILIAR CLÍNICO VETERINARIO? 👩🏻‍⚕️🐕</label>
+                </div>
+                <div class="col-md-3 pb-video">
+                    <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/BxX3n86fpTg?si=l3KMQa_mlmIlYi_g" frameborder="0" allowfullscreen></iframe>
+                    <label class="form-control label-warning text-center">¿CÓMO PONER UNA VÍA? - Medicina Veterinaria 🐶</label>
+                </div>
+                <div class="col-md-3 pb-video">
+                    <iframe class="pb-video-frame " width="100%" height="230" src="https://www.youtube.com/embed/vXe7MEqQpdY?si=w5_jc5CVW_8YAGdI" frameborder="0" allowfullscreen></iframe>
+                    <label class="form-control label-warning text-center">¿Cómo bañar a un gato cachorro? - ¡CONSEJOS VETERINARIOS!</label>
+                </div>
+                <div class="col-md-3 pb-video">
+                    <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/Wj1U8bmLy8E?si=nZarv7gyM4sbtZSL" frameborder="0" allowfullscreen></iframe>
+                    <label class="form-control label-warning text-center">Vendaje Robert Jones - Cursos Veterinaria</label>
+                </div>
             </div>
-            <div class="col-md-3 pb-video">
-                <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/K68UrdUOr2Y?list=RDzuAcaBkcYGE?ecver=1" frameborder="0" allowfullscreen loading="lazy"></iframe>
-                <label class="form-control label-warning text-center">Manuel Riva - Mhm Mhm</label>
-            </div>
-            <div class="col-md-3 pb-video">
-                <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/K68UrdUOr2Y?list=RDzuAcaBkcYGE?ecver=1" frameborder="0" allowfullscreen loading="lazy"></iframe>
-                <label class="form-control label-warning text-center">Clean Bandit - Rockabye</label>
-            </div>
-            <div class="col-md-3 pb-video">
-                <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/K68UrdUOr2Y?list=RDzuAcaBkcYGE?ecver=1" frameborder="0" allowfullscreen loading="lazy"></iframe>
-                <label class="form-control label-warning text-center">Burak Yeter - Tuesday</label>
-            </div>
-        </div>
-        <div class="row pb-row">
-            <div class="col-md-3 pb-video">
-                <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/K68UrdUOr2Y?list=RDzuAcaBkcYGE?ecver=1" frameborder="0" allowfullscreen loading="lazy"></iframe>
-                <label class="form-control label-warning text-center">F.O. and Peeva - Lichnata</label>
-            </div>
-            <div class="col-md-3 pb-video">
-                <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/K68UrdUOr2Y?list=RDzuAcaBkcYGE?ecver=1" frameborder="0" allowfullscreen loading="lazy"></iframe>
-                <label class="form-control label-warning text-center">Machine Gun - Bad Things</label>
-            </div>
-            <div class="col-md-3 pb-video">
-                <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/K68UrdUOr2Y?list=RDzuAcaBkcYGE?ecver=1" frameborder="0" allowfullscreen loading="lazy"></iframe>
-                <label class="form-control label-warning text-center">INNA - Say it with your body</label>
-            </div>
-            <div class="col-md-3 pb-video">
-                <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/K68UrdUOr2Y?list=RDzuAcaBkcYGE?ecver=1" frameborder="0" allowfullscreen loading="lazy"></iframe>
-                <label class="form-control label-warning text-center">INNA - Gimme Gimme</label>
+            <div class="row pb-row">
+                <div class="col-md-3 pb-video">
+                    <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/_zyJSD470P8?si=oMFhxG-j48jQ-njd" frameborder="0" allowfullscreen></iframe>
+                    <label class="form-control label-warning text-center">Como limpiar y desinfectar correctamente el arenero del gato</label>
+                </div>
+                <div class="col-md-3 pb-video">
+                    <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/a3kgGq2x9UA?si=0DN_H5syDQJwTqFt" frameborder="0" allowfullscreen></iframe>
+                    <label class="form-control label-warning text-center">Claves para desparasitar un gato</label>
+                </div>
+                <div class="col-md-3 pb-video">
+                    <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/gmqf93YkoFA?si=dLuguD4JbJyUYDwp" frameborder="0" allowfullscreen></iframe>
+                    <label class="form-control label-warning text-center">¿Cómo CEPILLAR a un PERRO de PELO LARGO? 🐶 Pasos a seguir</label>
+                </div>
+                <div class="col-md-3 pb-video">
+                    <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/cxIqytKe0x0?si=j_KJKfe7u_TFOwl4" frameborder="0" allowfullscreen></iframe>
+                    <label class="form-control label-warning text-center">Como CEPILLAR los DIENTES a un PERRO y Porqué es tan IMPORTANTE.</label>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
 
 
    <!-- Footer -->
    <footer
-   class="text-center text-lg-start text-white"
-   style="background-color: #0056b3"
+   class="text-center text-lg-start text-white fondofooter"
  >
    <!-- Grid container -->
    <div class="container p-4 pb-0">

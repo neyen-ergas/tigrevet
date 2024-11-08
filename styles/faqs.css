@@ -1,0 +1,24 @@
+.fondofaqs {
+background-color: #A1D8B8;
+}
+
+.textofaqs {
+  color: #2E4057;
+}
+
+.accordion-button {
+    background-color: #e5f4fb !important; /* Cambia el color de fondo aquí */
+    color: #ffffff; /* Cambia el color del texto aquí */
+    border-color: #4CAF50; /* Opcional: cambia el color del borde */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #388E3C; /* Color cuando está expandido */
+    color: #ffffff;
+}
+
+.accordion-button:hover {
+    background-color: #FF9933 !important; /* Color al pasar el mouse */
+    color: #ffffff;
+}
+
