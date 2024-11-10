@@ -47,6 +47,7 @@ align-items: center;
     height: 35px;
     width: 150px;
     border: 1px solid #2DFF85;
+    margin-top: 10px;
 }
 
 form {
@@ -99,6 +100,10 @@ form {
     animation: swing 3s ease-in-out infinite;
 }
 
+.send:hover {
+    scale: 1.1;
+    transition: ease-in-out 0.3s;
+}
 
 .preguntas-frecuentes {
     display: flex;
