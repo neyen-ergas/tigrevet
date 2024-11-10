@@ -65,3 +65,21 @@
     scale: 1.1;
     transition: ease-in-out 0.2s;
 }
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 100px;
+    padding: 10px 15px;
+    background-color: #2DFF85;
+    color: #2E4057;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+}
+
+#scrollToTopBtn.show {
+    opacity: 1; 
+}
