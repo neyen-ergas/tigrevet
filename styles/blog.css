@@ -1,4 +1,4 @@
-.blog-title{
+.blog-title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,38 +17,33 @@
     color: white;
 }
 
-
-.blog-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    justify-items: center;  
-    align-items: center;    
-    height:100%;
-    width: 800px;
-}       
-
-
-.item { 
-    color: rgb(0, 0, 0);  
-    display: flex;
-    justify-content: center;  
-    align-items: center;  
-    flex-direction: column;
-    height: 290px; 
-    width: 320px;  
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.blog-container{
+.blog-container {
     width: 100%;
-    height: 1500px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #E5F4FB;
+    padding: 20px; 
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.item {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .share {
@@ -58,12 +53,45 @@
     background-color: #A1D8B8;
     border: solid #A1D8B8 1px;
     text-align: center;
-    margin-left: 140px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
 }
 
 .share:hover {
-    scale: 1.1;
-    transition: ease-in-out 0.2s;
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+    .blog-grid {
+        grid-template-columns: 1fr; 
+        max-width: 600px;
+    }
+
+    .item {
+        width: 100%; 
+    }
+
+    .blog-h1 {
+        font-size: 22px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .blog-h1 {
+        font-size: 20px;
+        width: 150px;
+    }
+
+    .item {
+        padding: 15px;
+    }
+
+    .share {
+        width: 80px; 
+        height: 28px;
+    }
 }
 
 #scrollToTopBtn {
