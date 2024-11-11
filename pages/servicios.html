@@ -6,6 +6,7 @@
     <title>Tigrevet</title>
     <link rel="stylesheet" href="../styles/inicio.css" />
     <link rel="icon" href="../src/logoblanco.png" />
+    <script src="https://unpkg.com/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
 
     <link
       rel="stylesheet"
@@ -18,12 +19,32 @@
       crossorigin="anonymous"
     />
   </head>
+  <style>
+    /* menu hamburguesa */
+    .navbar-toggler {
+      border: none;
+      outline: none;
+    }
+    .navbar-toggler-icon {
+      background-image: url("https://cdn-icons-png.flaticon.com/512/1828/1828859.png");
+      background-size: contain;
+    }
+    .navbar-collapse {
+      transition: max-height 0.4s ease;
+      overflow: hidden;
+    }
+  </style>
   <body>
     <nav class="navbar navbar-expand-lg nav-pills">
       <div class="container">
         
         <img src="../src/logoblanco.webp" height="40" alt="" />
         <a class="nav-link nav-title" href="index.html">Tigrevet</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
         <div class="navbar-collapse" id="navbar">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
